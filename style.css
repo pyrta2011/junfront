@@ -248,12 +248,19 @@ body {
   background-image: url("img/progress-pattern.svg");
 }
 
-.portfolio {
+/* .portfolio {
   margin: 0;
   padding-bottom: 160px;
+} */
+.works {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-bottom: 2rem;
 }
 
-.projects {
+
+ .projects {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -266,10 +273,6 @@ body {
   padding-left: 528px;
 }
 
-.project-image {
-  
-}
-
 .project-image img {
   width: 448px;
   height: 256px;
@@ -278,7 +281,7 @@ body {
 
 .projects p {
   margin: 0 0 32px;
-}
+} 
 
 .button {
   margin: 0;

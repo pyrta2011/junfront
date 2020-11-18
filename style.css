@@ -229,14 +229,6 @@ body {
   background-position: left;
 }
 
-.skill-html {
-  background-image: url("img/icon-html.svg");
-}
-
-.skill-css {
-  background-image: url("img/icon-css.svg");
-}
-
 .level {
   margin: 0 0 40px;
   height: 24px;
